@@ -2,7 +2,6 @@
 int main()
 {
 int n,fact=1,i;
-printf("enter the number");
 scanf("%d",&n);
 if(n<=20)
 {

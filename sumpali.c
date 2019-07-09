@@ -18,11 +18,11 @@ int main()
 	}
 	if(sum==rev)
 	{
-	    printf("palindrome");
+	    printf("YES");
 	}
 	else
 	{
-	    printf("not palindrome");
+	    printf("NO");
 	}
 	 
 }

@@ -10,7 +10,6 @@ int main()
   	{
   		RevStr[j++] = Str[i];
   	}
-  	RevStr[i] = '\0';
-    printf("%s",RevStr);
+  	printf("%s",RevStr);
     return 0;
 }

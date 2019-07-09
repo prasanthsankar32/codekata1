@@ -8,7 +8,7 @@ int main()
   	len = strlen(Str);
     for(i=len-1;i>=0;i--)
   	{
-  		RevStr[j++] = Str[i];
+  	RevStr[j++] = Str[i];
   	}
   	printf("%s",RevStr);
     return 0;

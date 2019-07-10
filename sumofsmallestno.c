@@ -1,9 +1,7 @@
-
 #include <stdio.h>
-
 int main()
 {
-    int a[20],b[20],i,j,n,sum=0;
+int a[20],b[20],i,j,n,sum=0;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {

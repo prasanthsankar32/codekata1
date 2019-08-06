@@ -7,7 +7,7 @@ int main()
     gets(str);
     while (str[i] != '\0')
     {
-        if (str[i] >=33 && str[i]<=47 || str[i] >=58 && str[i]<=64 || str[i] >=123 && str[i]<=126)
+        if (str[i] >=33 && str[i]<=47 || str[i] >=58 && str[i]<=64 || str[i] >=123 && str[i]<=126 || str[i]==' ')
         {
             count++;
         }

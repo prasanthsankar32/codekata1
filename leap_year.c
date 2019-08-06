@@ -10,14 +10,14 @@ int main()
         if( year%100 == 0)
         {
             if ( year%400 == 0)
-                printf(yes);
+                printf("yes");
             else
-                printf(no);
+                printf("no");
         }
         else
-            printf(yes);
+            printf("yes");
     }
     else
-        printf(no);
+        printf("no");
    
 }

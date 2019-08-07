@@ -2,11 +2,12 @@
 #include<string.h>
 int main()
 {
-    int n1, sum=0;
-    scanf("%d",&n1);
-    
-    sum=((n1*(n1+1))/2);
+    int i,sum=0;
+    scanf("%d",&i);
+    while(i!=0)
+    {
+        sum=sum+(i%10);
+        i=i/10;
+    }
     printf("%d",sum);
-    
-        
-}
+    }
